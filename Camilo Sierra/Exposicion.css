@@ -1,0 +1,55 @@
+span {
+    font-size: 30px;
+}
+
+body {
+    background-color: dimgrey;
+}
+
+h1 {
+    color: darkgreen
+}
+
+h2 {
+    color: dimgray;
+}
+
+dt {
+    font-size: 19px;
+    
+}
+
+#idAm {
+    color: yellow;
+}
+
+#idAz {
+    color: blue;
+}
+
+rt {
+    font-size: 30;
+}
+
+#idRoj {
+    color: red;
+}
+
+a {
+    font-size: 20;
+    text-decoration: none;
+
+}
+
+#idtitulo {
+    text-align: center;
+    font-size: 45;
+    color: darkslategrey;
+}
+
+summary {
+    font-size: 20px;
+    color: aliceblue;
+    
+    
+}
