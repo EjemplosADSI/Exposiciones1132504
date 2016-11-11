@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>    
+    <title>Exposicion</title>
+      <link href="Etiquetas.js" >
+      <link href="Etiquetas.css">
+      
+      <!--Etiqueta <meta>-->
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+      <meta name="description" content="Ejemplo de una Etiqueta meta" /> 
+      <meta name="language" content="Spanish" />
+
+        
+      <script type="text/javascript">
+      function dibujarCanvas(){
+        var canvas = document.getElementById('miCanvas');
+        var contexto = canvas.getContext('2d');
+           contexto.fillStyle = '#CCCCCC';
+           contexto.fillRect (0, 0, 450, 350);
+        }
+    </script>
+      
+</head>
+<body onLoad="dibujarCanvas();">  
+
+    <!--Etiqueta <header es una etiqueta semantica> -->
+   <header>
+     <h1>Ejemplos de var,canvas,tbody,meta,header.</h1>
+   </header>    
+
+       <!--Etiqueta Var -->
+      <p>esto es una variable <var title="variable">titulo</var> de tipo titulo</p> 
+
+    <p>Dibujo con  Canvas:</p>
+    <!--Etiqueta <canvas>-->
+    <canvas id="miCanvas" width="450" height="350" >Su navegador no soporta Canvas.</canvas>
+    
+    
+    
+<table border="1"> 
+    <thead> 
+        <tr> 
+            <th>Producto</th> <th>Precio</th> 
+        </tr>
+    </thead>
+    <!--Etiqueta tbody-->
+    <tbody > 
+        <tr> 
+            <td>Chocolate</td> <td>$20</td>            
+        </tr> 
+        <tr> 
+            <td>Dulces</td>
+            <td>$18</td> 
+        </tr> 
+    </tbody>
+    <tfoot> 
+    <tr> 
+        <td>Total</td> 
+        <td>$38</td> 
+    </tr>
+</tfoot> 
+    </table>
+    
+    
+</body>
+</html>
