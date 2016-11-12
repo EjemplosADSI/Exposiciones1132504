@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body onresize="myFunction()">
+
+<p>Cambia el tamaño del navegador.</p>
+
+<p id="demo"></p>
+
+<p><strong>Ayuda:</strong> Mira el texto que se mostrara a cambiar el tamaño </p>
+
+<script>
+function myFunction() {
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    var txt = "tamaño: ancho=" + w + ", altura=" + h;
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
+
